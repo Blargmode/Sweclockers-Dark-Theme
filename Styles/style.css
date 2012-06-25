@@ -282,3 +282,31 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
     padding: 10px;
     background-image: url("data:image/gif;base64,R0lGODlhFQAUAOYAACUlJZ6dmgwMDA8PDykpKS8vLzIyMi4uLj8/P0NDQ0VFRWFhYUlJSUpKSk9PT1paWllZWYmIhV5eXldXV3BwcD4+PisrKz09PTQ0NEtLS5KRjkZGRl9fX2ZmZlFRUXZ2djo6OlxcXCQkJJybmCgoKBYWFhsbGxQUFDExMUhISDc3NyMjIxEREWxsbDg4OCwsLGNjY1RUVEBAQGhoaCAgICYmJk5OTkRERExMTKinpGRkZLOyrxkZGUJCQnR0dFNTUwsLCx4eHufl4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEIALAAAAAAVABQAAAdigEKCg4SFhoeIiYqLjI2OhB8+FC0zMBIQPzYpPY+dOx0LIRMeGQoIAZ2POhwPMQ4MCRcqKBYAqY45OBsyIBgHJCsat40NNxUuBi81NCYlLALDjCMFBCJBPCcDQBHR3d7fhIEAOw==");
 }
+
+/* Dark stylish buttons */
+
+.buttonReport{
+	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgReportCleanBlack.gif') left center !important;
+	color:#DDDDDD !important;
+}
+
+.buttonReport:hover{
+	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgReportCleanBlack.gif') 200px center !important;
+}
+
+.buttonQuote {
+	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgQuoteCleanBlack.gif') left center !important;
+	color:#DDDDDD !important;
+}
+
+.buttonQuote:hover {
+	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgQuoteCleanBlack.gif') 200px center !important;
+}
+
+.button{
+	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgCleanBlack.gif') left center !important;
+	color:#DDDDDD !important;
+}
+.button:hover{
+	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgCleanBlack.gif') 200px center !important;
+}
