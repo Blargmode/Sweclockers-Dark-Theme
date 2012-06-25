@@ -1,11 +1,21 @@
 @charset "utf-8";
-/* CSS Document */
+/* =Sweclockers Dark Theme
+-----------------------------------------------------------------------------------
+Topnotch optimized for Google Chrome but may work pretty well in other browsers too.
 
-/* Lägg till tillägg här:*/
-/*-----------------------*/
+This userstyle is currently provided to you by:
+-Blargmode	Creator and Developer
+-atriix		Developer
+
+From the Sweclockers.com couminty
+*/
 
 
-/*-----------------------*/
+/* You may add custom addon styles right here, but it's highly recomended to put it at the bottom if the file instead */
+
+
+
+
 
 /* Background */
 
@@ -274,14 +284,6 @@ input.icon.search,
 /* Margin fix */
 head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 
-/* Biberu's example on how to smoothen out polls 
-.imagebutton img {
-    width: 0;
-    height: 0;
-    padding: 10px;
-    background-image: url("data:image/gif;base64,R0lGODlhFQAUAOYAACUlJZ6dmgwMDA8PDykpKS8vLzIyMi4uLj8/P0NDQ0VFRWFhYUlJSUpKSk9PT1paWllZWYmIhV5eXldXV3BwcD4+PisrKz09PTQ0NEtLS5KRjkZGRl9fX2ZmZlFRUXZ2djo6OlxcXCQkJJybmCgoKBYWFhsbGxQUFDExMUhISDc3NyMjIxEREWxsbDg4OCwsLGNjY1RUVEBAQGhoaCAgICYmJk5OTkRERExMTKinpGRkZLOyrxkZGUJCQnR0dFNTUwsLCx4eHufl4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEIALAAAAAAVABQAAAdigEKCg4SFhoeIiYqLjI2OhB8+FC0zMBIQPzYpPY+dOx0LIRMeGQoIAZ2POhwPMQ4MCRcqKBYAqY45OBsyIBgHJCsat40NNxUuBi81NCYlLALDjCMFBCJBPCcDQBHR3d7fhIEAOw==");
-}*/
-
 /* Dark stylish buttons */
 
 .buttonReport{
@@ -308,4 +310,9 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 }
 .button:hover{
 	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgCleanBlack.gif') 200px center !important;
+}
+
+/*Archive pagination highlight*/
+.list_control .pages .current {
+background: #222 !important;
 }
