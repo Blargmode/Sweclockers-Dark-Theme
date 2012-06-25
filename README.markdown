@@ -11,6 +11,7 @@ Since the start of the project other users has joined it.
 As of this update the current crew looks like this:
 
 Blargmode	- Creator and coder
+
 Atriix		- Coder
 
 Others
