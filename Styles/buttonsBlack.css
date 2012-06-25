@@ -1,27 +1,27 @@
 .buttonReport{
-	background: #222222 url(http://snilius.com/uploads/swec/buttonBgReportBlack.gif) left center !important;
+	background: #222222 url('sprites/buttonBgReportBlack.gif') left center !important;
 	color:#DDDDDD !important;
 }
 
 .buttonReport:hover{
-	background: #222222 url(http://snilius.com/uploads/swec/buttonBgReportBlack.gif) 200px center !important;
+	background: #222222 url('sprites/buttonBgReportBlack.gif') 200px center !important;
 }
 
 .buttonQuote {
-	background: #222222 url(http://snilius.com/uploads/swec/buttonBgQuoteBlack.gif) left center !important;
+	background: #222222 url('sprites/buttonBgQuoteBlack.gif') left center !important;
 	color:#DDDDDD !important;
 }
 
 .buttonQuote:hover {
-	background: #222222 url(http://snilius.com/uploads/swec/buttonBgQuoteBlack.gif) 200px center !important;
+	background: #222222 url('sprites/buttonBgQuoteBlack.gif') 200px center !important;
 }
 
 .button{
-	background: #222222 url(http://snilius.com/uploads/swec/buttonBgBlack.gif) left center !important;
+	background: #222222 url('sprites/buttonBgBlack.gif') left center !important;
 	color:#DDDDDD !important;
 	margin-top:1px;
 }
 
 .button:hover{
-	background: #222222 url(http://snilius.com/uploads/swec/buttonBgBlack.gif) 200px center !important;
+	background: #222222 url('sprites/buttonBgBlack.gif') 200px center !important;
 }
