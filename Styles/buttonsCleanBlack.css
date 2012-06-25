@@ -1,0 +1,25 @@
+.buttonReport{
+	background: #222222 url(http://snilius.com/uploads/swec/buttonBgReportCleanBlack.gif) left center !important;
+	color:#DDDDDD !important;
+}
+
+.buttonReport:hover{
+	background: #222222 url(http://snilius.com/uploads/swec/buttonBgReportCleanBlack.gif) 200px center !important;
+}
+
+.buttonQuote {
+	background: #222222 url(http://snilius.com/uploads/swec/buttonBgQuoteCleanBlack.gif) left center !important;
+	color:#DDDDDD !important;
+}
+
+.buttonQuote:hover {
+	background: #222222 url(http://snilius.com/uploads/swec/buttonBgQuoteCleanBlack.gif) 200px center !important;
+}
+
+.button{
+	background: #222222 url(http://snilius.com/uploads/swec/buttonBgCleanBlack.gif) left center !important;
+	color:#DDDDDD !important;
+}
+.button:hover{
+	background: #222222 url(http://snilius.com/uploads/swec/buttonBgCleanBlack.gif) 200px center !important;
+}
