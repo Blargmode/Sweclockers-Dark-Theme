@@ -10,8 +10,8 @@ Crew
 Since the start of the project other users has joined it.
 As of this update the current crew looks like this:
 
-* [Blargmode](http://www.sweclockers.com/profil/blargmode)  - Creator and coder
-* [atriix](http://www.sweclockers.com/profil/atriix)		- Coder
+* [Blargmode](http://www.sweclockers.com/profil/blargmode)  - Creator and Developer
+* [atriix](http://www.sweclockers.com/profil/atriix)		- Developer
 
 Others
 ------
