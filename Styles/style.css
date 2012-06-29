@@ -322,5 +322,10 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
  *Fixes problem with user custom colored black text been invisible
  */
 font{
-	colro:#ffffff;
+	color:#ffffff;
+}
+
+/*News carousell doubleslide white corners fix*/
+#carousell .slider .slide.double .mask {
+border-radius: 11px;
 }
