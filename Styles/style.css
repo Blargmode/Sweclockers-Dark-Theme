@@ -327,5 +327,18 @@ font{
 
 /*News carousell doubleslide white corners fix*/
 #carousell .slider .slide.double .mask {
-border-radius: 11px;
+	border-radius: 11px;
+}
+
+/*Image popup gallery style*/
+#TB_window{
+	background-color:#494949;
+}
+
+#TB_closeWindow a{
+	color:#fff;
+}
+
+.TB_overlayBG{
+	background-color:#363636;
 }
