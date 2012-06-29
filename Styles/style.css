@@ -314,5 +314,13 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 
 /*Archive pagination highlight*/
 .list_control .pages .current {
-background: #222 !important;
+	background: #222 !important;
+}
+
+/*
+ *Force all user custom colored text to be white
+ *Fixes problem with user custom colored black text been invisible
+ */
+font{
+	colro:#ffffff;
 }
