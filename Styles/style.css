@@ -19,12 +19,18 @@ From the Sweclockers.com forum
 
 /* Background */
 
-body, .page, #siteSearch
+body,
+.page,
+#siteSearch,
+#head,
+#head .menuShadow
 {background-color:#000000 !important;} /* Black */
 
 body,
 .page,
-#submenu .menuitem
+#submenu .menuitem,
+#head,
+#head .menuShadow
 {background-image:url(http://blargmode.se/files/sweclockers_dark_theme/images/grain_dark.png) !important;}
 
 .alt2,
@@ -127,6 +133,7 @@ table,
 
 /* Text */
 
+font,
 .bbslideshow,
 #head #submenu li a,
 #head .menu li a,
@@ -179,6 +186,9 @@ div.bbcode p,
 .bbtable .first
 {color:#000 !important;}
 
+.pagehead, .social p{
+	color:#eeeeee !important;
+}
 /* Links */
 
 #feed li a,
@@ -255,6 +265,7 @@ input.icon.search,
 
 /* Other gradients */
 
+
 .bbExpanderFade {
 	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(17, 17, 17, 0)),to(rgba(17, 17, 17, 1)),color-stop(.25,rgba(17, 17, 17, 0.5))) !important;
 	background-image: -moz-linear-gradient(rgba(17, 17, 17, 0) 0,rgba(17, 17, 17, 0.5) 25%,rgba(17, 17, 17, 1) 100%) !important;
@@ -321,9 +332,9 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
  *Force all user custom colored text to be white
  *Fixes problem with user custom colored black text been invisible
  */
-font{
+/*font{
 	color:#ffffff;
-}
+}*/
 
 /*News carousell doubleslide white corners fix*/
 #carousell .slider .slide.double .mask {
