@@ -1,21 +1,36 @@
 @-moz-document domain("www.sweclockers.com") {
-/* CSS Document */
+/* =Sweclockers Dark Theme
+-----------------------------------------------------------------------------------
+Topnotch optimized for Google Chrome but may work pretty well in other browsers too.
 
-/* Lägg till tillägg här:*/
-/*-----------------------*/
+This userstyle is currently provided to you by:
+-Blargmode	Creator and Developer
+-atriix		Developer
+
+From the Sweclockers.com forum
+*/
+
+
+/* You may add custom addon styles right here, but it's highly recomended to put it at the bottom of the file instead */
 
 
 
-/*-----------------------*/
+
 
 /* Background */
 
-body, .page, #siteSearch
+body,
+.page,
+#siteSearch,
+#head,
+#head .menuShadow
 {background-color:#000000 !important;} /* Black */
 
 body,
 .page,
-#submenu .menuitem
+#submenu .menuitem,
+#head,
+#head .menuShadow
 {background-image:url(http://blargmode.se/files/sweclockers_dark_theme/images/grain_dark.png) !important;}
 
 .alt2,
@@ -118,6 +133,7 @@ table,
 
 /* Text */
 
+font,
 .bbslideshow,
 #head #submenu li a,
 #head .menu li a,
@@ -170,6 +186,9 @@ div.bbcode p,
 .bbtable .first
 {color:#000 !important;}
 
+.pagehead, .social p{
+	color:#eeeeee !important;
+}
 /* Links */
 
 #feed li a,
@@ -246,6 +265,7 @@ input.icon.search,
 
 /* Other gradients */
 
+
 .bbExpanderFade {
 	background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(17, 17, 17, 0)),to(rgba(17, 17, 17, 1)),color-stop(.25,rgba(17, 17, 17, 0.5))) !important;
 	background-image: -moz-linear-gradient(rgba(17, 17, 17, 0) 0,rgba(17, 17, 17, 0.5) 25%,rgba(17, 17, 17, 1) 100%) !important;
@@ -275,13 +295,6 @@ input.icon.search,
 /* Margin fix */
 head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 
-/* Biberu's example on how to smoothen out polls */
-.imagebutton img {
-    width: 0;
-    height: 0;
-    padding: 10px;
-    background-image: url("data:image/gif;base64,R0lGODlhFQAUAOYAACUlJZ6dmgwMDA8PDykpKS8vLzIyMi4uLj8/P0NDQ0VFRWFhYUlJSUpKSk9PT1paWllZWYmIhV5eXldXV3BwcD4+PisrKz09PTQ0NEtLS5KRjkZGRl9fX2ZmZlFRUXZ2djo6OlxcXCQkJJybmCgoKBYWFhsbGxQUFDExMUhISDc3NyMjIxEREWxsbDg4OCwsLGNjY1RUVEBAQGhoaCAgICYmJk5OTkRERExMTKinpGRkZLOyrxkZGUJCQnR0dFNTUwsLCx4eHufl4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAEIALAAAAAAVABQAAAdigEKCg4SFhoeIiYqLjI2OhB8+FC0zMBIQPzYpPY+dOx0LIRMeGQoIAZ2POhwPMQ4MCRcqKBYAqY45OBsyIBgHJCsat40NNxUuBi81NCYlLALDjCMFBCJBPCcDQBHR3d7fhIEAOw==");
-}
 /* Dark stylish buttons */
 
 .buttonReport{
@@ -308,5 +321,36 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 }
 .button:hover{
 	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgCleanBlack.gif') 200px center !important;
+}
+
+/*Archive pagination highlight*/
+.list_control .pages .current {
+	background: #222 !important;
+}
+
+/*
+ *Force all user custom colored text to be white
+ *Fixes problem with user custom colored black text been invisible
+ */
+/*font{
+	color:#ffffff;
+}*/
+
+/*News carousell doubleslide white corners fix*/
+#carousell .slider .slide.double .mask {
+	border-radius: 11px;
+}
+
+/*Image popup gallery style*/
+#TB_window{
+	background-color:#494949;
+}
+
+#TB_closeWindow a{
+	color:#fff;
+}
+
+.TB_overlayBG{
+	background-color:#363636;
 }
 }
