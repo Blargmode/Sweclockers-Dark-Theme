@@ -341,3 +341,8 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 .TB_overlayBG{
 	background-color:#363636;
 }
+
+/*Wall topic background at profile page*/
+#feed .wallTopic .body{
+background:#161616;
+}
