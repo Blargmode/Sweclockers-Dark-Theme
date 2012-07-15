@@ -2,6 +2,13 @@
  * Developer: Atriix 
  * Date: 2012-07-15
  ************************************/
+
+.imagebutton img{
+width: 0;
+height: 0;
+padding: 10px;
+}
+
 #vB_Editor_001_cmd_bold {
 	width:21px;
 	height:20px;

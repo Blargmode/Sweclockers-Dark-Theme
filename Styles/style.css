@@ -10,11 +10,7 @@ This userstyle is currently provided to you by:
 From the Sweclockers.com forum
 */
 
-
 /* You may add custom addon styles right here, but it's highly recomended to put it at the bottom of the file instead */
-
-
-
 
 
 /* Background */
@@ -327,14 +323,6 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 .list_control .pages .current {
 	background: #222 !important;
 }
-
-/*
- *Force all user custom colored text to be white
- *Fixes problem with user custom colored black text been invisible
- */
-/*font{
-	color:#ffffff;
-}*/
 
 /*News carousell doubleslide white corners fix*/
 #carousell .slider .slide.double .mask {
