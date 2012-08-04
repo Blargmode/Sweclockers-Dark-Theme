@@ -187,6 +187,7 @@ div.bbcode p,
 }
 /* Links */
 
+.following span,
 #feed li a,
 .bbprisjakt a,
 .bbparagraph a,
@@ -204,10 +205,16 @@ div.bbcode p,
 .forum_post_signature a,
 .forum_post_body a,
 .readmore,
-.articleItem a
-.statistics a
+.articleItem a,
+.statistics a,
+#feedloader,
+.pm a,
+.pmfolderjump a,
+.sidemenu li a,
+.pjContent a
 {color: #c15200 !important;}
 
+.following span:hover,
 #feed li a:hover,
 .bbprisjakt a:hover,
 .bbparagraph a:hover,
@@ -224,7 +231,14 @@ div.bbcode p,
 .forum_post_profile a:hover,
 .forum_post_signature a:hover,
 .forum_post_body a:hover,
-.articleItem a:hover
+.email a:hover,
+.articleItem a:hover,
+.statistics a:hover,
+#feedloader:hover,
+.pm a:hover,
+.pmfolderjump a:hover,
+.sidemenu li a:hover,
+.pjContent a:hover
 {color:#ff8d38 !important;}
 
 .threadtitle h3 a,

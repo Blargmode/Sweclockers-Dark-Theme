@@ -10,11 +10,7 @@ This userstyle is currently provided to you by:
 From the Sweclockers.com forum
 */
 
-
 /* You may add custom addon styles right here, but it's highly recomended to put it at the bottom of the file instead */
-
-
-
 
 
 /* Background */
@@ -191,6 +187,7 @@ div.bbcode p,
 }
 /* Links */
 
+.following span,
 #feed li a,
 .bbprisjakt a,
 .bbparagraph a,
@@ -208,9 +205,16 @@ div.bbcode p,
 .forum_post_signature a,
 .forum_post_body a,
 .readmore,
-.articleItem a
+.articleItem a,
+.statistics a,
+#feedloader,
+.pm a,
+.pmfolderjump a,
+.sidemenu li a,
+.pjContent a
 {color: #c15200 !important;}
 
+.following span:hover,
 #feed li a:hover,
 .bbprisjakt a:hover,
 .bbparagraph a:hover,
@@ -227,7 +231,14 @@ div.bbcode p,
 .forum_post_profile a:hover,
 .forum_post_signature a:hover,
 .forum_post_body a:hover,
-.articleItem a:hover
+.email a:hover,
+.articleItem a:hover,
+.statistics a:hover,
+#feedloader:hover,
+.pm a:hover,
+.pmfolderjump a:hover,
+.sidemenu li a:hover,
+.pjContent a:hover
 {color:#ff8d38 !important;}
 
 .threadtitle h3 a,
@@ -328,14 +339,6 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 	background: #222 !important;
 }
 
-/*
- *Force all user custom colored text to be white
- *Fixes problem with user custom colored black text been invisible
- */
-/*font{
-	color:#ffffff;
-}*/
-
 /*News carousell doubleslide white corners fix*/
 #carousell .slider .slide.double .mask {
 	border-radius: 11px;
@@ -352,5 +355,10 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 
 .TB_overlayBG{
 	background-color:#363636;
+}
+
+/*Wall topic background at profile page*/
+#feed .wallTopic .body{
+background:#161616;
 }
 }
