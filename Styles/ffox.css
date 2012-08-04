@@ -161,10 +161,11 @@ input.bginput,
 select,
 div.bbcode p,
 .galleryintro p
-{color:#8A8A8A !important;} /* Mid-range gray lightened*/ /* Darker version: #6A6A6A; /*
+{color:#8A8A8A !important;} /* Mid-range gray lightened*/ /* Darker version: #6A6A6A; */
 
+.breadcrumbs{color:#6A6A6A !important;}
 
-.navbar a:hover,
+/*.navbar a:hover,
 .navbar a:active
 {color:#1F5994 !important;} /* Marine blue */
 
