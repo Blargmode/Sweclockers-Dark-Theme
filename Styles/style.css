@@ -363,3 +363,8 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 #feed .wallTopic .body{
 background:#161616;
 }
+
+/*Force HTML syntax highligt to #E2E2E2 instead of navy (stickey blue)*/
+.bbccode pre span{
+color:#E2E2E2 !important;
+}
