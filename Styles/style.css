@@ -336,6 +336,13 @@ head .menu li.current a, #head .menu li.current {margin-left:-1px;}
 	background: #222222 url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgCleanBlack.gif') 200px center !important;
 }
 
+.buttonQuoteSelected,
+.buttonQuoteSelected:hover{
+background:
+url('http://blargmode.se/files/sweclockers_dark_theme/images/sprites/buttonBgQuoteCleanBlack.gif') 200px center !important;
+color:#fff !important;
+}
+
 /*Archive pagination highlight*/
 .list_control .pages .current {
 	background: #222 !important;
