@@ -1,226 +1,301 @@
-﻿/* Editor Icons Sprite Replacement
- * Developer: Atriix 
- * Date: 2012-07-15
- ************************************/
-
-.imagebutton img{
-width: 0;
-height: 0;
-padding: 10px;
-}
-
-#vB_Editor_001_cmd_bold {
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') 0px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_bold:hover {
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') 0px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_italic{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -23px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_italic:hover {
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -23px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_underline {
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -46px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_underline:hover {
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -46px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_justifyleft{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -69px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_justifyleft:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -69px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_justifycenter{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -92px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_justifycenter:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -92px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_justifyright{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -115px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_justifyright:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -115px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_insertorderedlist{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -138px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_insertorderedlist:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -138px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_insertunorderedlist{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -161px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_insertunorderedlist:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -161px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_createlink{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -184px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_createlink:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -184px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_unlink{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -207px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_unlink:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -207px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_email{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -230px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_email:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -230px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_insertimage{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -253px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_insertimage:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -253px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_Youtube{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -276px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_Youtube:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -276px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_quote{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -299px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_quote:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -299px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_Spoiler{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -322px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_Spoiler:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -322px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_code{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -345px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_code:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -345px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_html{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -368px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_html:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -368px -22px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_php{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -391px 0px no-repeat;
-}
-
-#vB_Editor_001_cmd_wrap0_php:hover{
-	width:21px;
-	height:20px;
-	background: url('http://snilius.com/uploads/swec/editoricons.gif') -391px -22px no-repeat;
+﻿/* Editor Icons Sprite Replacement
+ * Developer: Atriix 
+ * Date: 2012-07-15
+ ************************************/
+
+/*width: 0 !important;
+height: 0 !important;
+display: none;
+}*/
+
+.imagebutton img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_bold {
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') 0px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_bold img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_bold:hover {
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') 0px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_italic{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -23px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_italic img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_italic:hover {
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -23px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_underline {
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -46px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_underline img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_underline:hover {
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -46px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_justifyleft{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -69px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_justifyleft img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_justifyleft:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -69px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_justifycenter{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -92px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_justifycenter img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_justifycenter:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -92px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_justifyright{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -115px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_justifyright img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_justifyright:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -115px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_insertorderedlist{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -138px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_insertorderedlist img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_insertorderedlist:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -138px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_insertunorderedlist{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -161px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_insertunorderedlist img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_insertunorderedlist:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -161px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_createlink{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -184px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_createlink img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_createlink:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -184px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_unlink{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -207px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_unlink img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_unlink:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -207px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_email{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -230px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_email img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_email:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -230px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_insertimage{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -253px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_insertimage img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_insertimage:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -253px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_Youtube{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -276px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_Youtube img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_wrap0_Youtube:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -276px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_quote{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -299px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_quote img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_wrap0_quote:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -299px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_Spoiler{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -322px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_Spoiler img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_wrap0_Spoiler:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -322px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_code{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -345px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_code img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_wrap0_code:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -345px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_html{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -368px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_html img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_wrap0_html:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -368px -22px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_php{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -391px 0px no-repeat;
+}
+
+#vB_Editor_001_cmd_wrap0_php img{
+	display: none;
+}
+
+#vB_Editor_001_cmd_wrap0_php:hover{
+	width:21px;
+	height:20px;
+    background: url('http://snilius.com/uploads/swec/editoricons.gif') -391px -22px no-repeat;
 }
